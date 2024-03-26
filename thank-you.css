@@ -1,0 +1,101 @@
+body{
+    background-image: url(background\ vegetables.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px;
+}
+
+.border-container{
+    border-color: black;
+    border:  2px solid hsl(112, 78%, 16%);
+    padding: 20px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: hsl(112, 78%, 16%);
+
+}
+
+.thank-you{
+    font-family: lupio-black;
+    text-align: center;
+}
+
+.gif-thank-you{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border:  3px solid hsl(112, 78%, 16%);
+}
+
+p{
+    font-family: "Karben 105 Mono W00 Book";
+    font-size: 18px; 
+    padding-top: 15px;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 25px;
+    font-family: "Karben 105 Mono W00 Bold";
+}
+
+.icons{
+    text-align: center;
+    margin-top: 15px;
+}
+
+i:hover{
+    color: #27a314;
+}
+
+@import url(https://db.onlinewebfonts.com/c/87324a76ca55c4bbb5b9bc4b2b56ac2e?family=Karben+105+Mono+W00+Book);
+@font-face {
+    font-family: "Karben 105 Mono W00 Book";
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot");
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.svg#Karben 105 Mono W00 Book")format("svg");
+}
+
+/* for h2. h3 and price */
+@import url(https://db.onlinewebfonts.com/c/c0aee35a205e67aeea08c14ac4bc5176?family=Karben+105+Mono+W00+Bold);
+@font-face {
+    font-family: "Karben 105 Mono W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot");
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.svg#Karben 105 Mono W00 Bold")format("svg");
+}
+
+/* MENU */
+@font-face {
+    font-family: lupio-black;
+    src: url(Fontspring-DEMO-lupio-black.ttf);
+}
+
+/* RICARDO'S */
+@font-face {
+    font-family: bebasneue-regular;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+

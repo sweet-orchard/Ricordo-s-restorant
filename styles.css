@@ -1,0 +1,226 @@
+.white-background{
+    background-color: white;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 40px;
+}
+
+body{
+    background-image: url(background\ vegetables.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: hsl(112, 78%, 16%);
+}
+
+label{
+    font-size: 1.3rem;
+    font-family: "Karben 105 Mono W00 Book";
+    margin-bottom: 3px;
+}
+
+p{
+    font-size: 1.25rem;
+    font-family: "Karben 105 Mono W00 Book"; 
+}
+
+
+
+.input-radio, .input-checkbox{
+    display: inline-block;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.yes-and-no{
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+li{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+}
+
+#p-private-room{
+    margin-bottom: 10px;
+
+}
+
+.row{
+    vertical-align: top;
+}
+
+#title{
+    text-align: center;
+    font-family: "Karben 105 Mono W00 Bold";
+    font-size: 3vw;
+}
+
+#description{
+    text-align: center;
+    font-family: "Karben 105 Mono W00 Book";
+    font-size: 2vw;
+    padding: 5px;
+    
+}
+
+#p-order{
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.form-box{
+    margin-top: 3px;
+    display: block;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    height: 2.375rem;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: "Karben 105 Mono W00 Book";
+}
+
+.column{
+    display: inline-block;
+    align-items: top;
+    width: 32%;
+}
+
+
+li{
+    font-family: "Karben 105 Mono W00 Book";
+}
+
+.text-bold{
+    font-family: "Karben 105 Mono W00 Bold";
+}
+
+#menu{
+    display: flex;
+    align-items: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-menu{
+    width: 50%;
+    height: 30px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 1px;
+}
+
+#special-requests-container{
+    margin-top: 13px;
+}
+
+#submit{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-family: "Karben 105 Mono W00 Book";
+    font-size: 1.25rem;
+    background-color: #09c554;
+    color: white;
+}
+
+#submit:hover{
+    background-color: #07a345;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px #07a345;
+}
+
+.special-requests{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#column2{
+    margin-left: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Karben 105 Mono W00 Book";
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.button-menu:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #eaeaea;
+    background-color: #dadada;
+}
+
+.button-menu, a:hover{
+    color: black;
+}
+
+.somethingelse{
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1px;
+    font-size: 0.9rem;
+}
+
+.special-requests{
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+@import url(https://db.onlinewebfonts.com/c/87324a76ca55c4bbb5b9bc4b2b56ac2e?family=Karben+105+Mono+W00+Book);
+@font-face {
+    font-family: "Karben 105 Mono W00 Book";
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot");
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.svg#Karben 105 Mono W00 Book")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/c0aee35a205e67aeea08c14ac4bc5176?family=Karben+105+Mono+W00+Bold);
+@font-face {
+    font-family: "Karben 105 Mono W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot");
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.svg#Karben 105 Mono W00 Bold")format("svg");
+}
+
+

@@ -1,0 +1,47 @@
+body{
+    font-family: "Karben 105 Mono W00 Book";
+    background-image: url(background\ vegetables.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #114909;
+    margin: 0;
+    padding: 30px;
+}
+
+.menu{
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 25px;
+}
+
+
+/* fonts */
+/* for paragraphs*/
+@import url(https://db.onlinewebfonts.com/c/87324a76ca55c4bbb5b9bc4b2b56ac2e?family=Karben+105+Mono+W00+Book);
+@font-face {
+    font-family: "Karben 105 Mono W00 Book";
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot");
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.svg#Karben 105 Mono W00 Book")format("svg");
+}
+
+/* for h2. h3 and price */
+@import url(https://db.onlinewebfonts.com/c/c0aee35a205e67aeea08c14ac4bc5176?family=Karben+105+Mono+W00+Bold);
+@font-face {
+    font-family: "Karben 105 Mono W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot");
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.svg#Karben 105 Mono W00 Bold")format("svg");
+}

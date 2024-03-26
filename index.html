@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6deba7d055.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="bibimbap.png">
+</head>
+<body>
+    <main class="main">
+        <div class="white-background">
+            <h1 id="title">RICARDO'S RESTAURANT</h1>
+            <p id="description">Reservation Form</p>
+            <form action="thank-you.html" id="survey-form">
+
+                <div class="from-group">
+                    <label for="name" id="name-label">Name</label><br>
+                    <input type="text" requireda id="name" placeholder="Enter your name" class="form-box"><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="email" required placeholder="Enter your Email" class="form-box"><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="number" id="number-label">Age (optional)</label><br>
+                    <input type="number" name="age" id="number" placeholder="Age" class="form-box"><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="phone">Phone number</label><br>
+                    <input type="tel" id="phone" required placeholder="+44(034)56738910" class="form-box"><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="date">Data and Time</label><br>
+                    <input type="datetime-local" required class="form-box"><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="number-of-guests">Number of guests</label><br>
+                    <input type="number" id="number-of-guests" class="form-box"><br>
+                </div>
+            
+                <div class="form-group">
+                    <label for="dropdown">What type of reservation would you like?</label><br>
+                    <select name="dropdown" id="dropdown" class="form-box">
+                        <option disabled selected value>Select a type of reservation</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="private">Private</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Corprorate">Corprorate</option>
+                        <option value="Holidays">Holidays</option>
+                        <option value="Date">Date</option>
+                    </select><br>
+                </div>
+
+
+                <div class="form-group">
+                    <p id="p-private-room">Would you like to reserve a private room?</p>
+                    <label class="yes-and-no">
+                        <input name="reserve-private-room" type="radio" value="yes" checked class="input-radio">yes
+                    </label>
+                    <label class="yes-and-no">
+                        <input name="reserve-private-room" type="radio" value="no" class="input-radio">no
+                    </label>
+                </div>
+
+
+
+                <div class="row">
+                    <p id="p-order">Would you like to order something?</p>
+                    <div class="column" id="column1">
+                        <ul style="list-style-type: none;" class="mains">
+                            <p class="text-bold">MAINS</p>
+                            <img src="pizza.jpg" alt="pizza image" height="100px">
+                            <li><input type="checkbox" name="mains" id="Lenguado" class="input-checkbox">Lenguado</li>
+                            <li><input type="checkbox" name="mains" id="Bacalao-Frito" class="input-checkbox">Bacalao Frito</li>
+                            <li><input type="checkbox" name="mains" id="Paella-Mixta" class="input-checkbox">Paella Mixta</li>
+                            <li><input type="checkbox" name="mains" id="Lomo-de-salmon" class="input-checkbox">Lomo De Salmon</li>
+                            <li><input type="checkbox" name="mains" id="Pollo-AI-Horno" class="input-checkbox">Pollo AI Horno</li>
+                            <li><input type="checkbox" name="mains" id="Lasagne" class="input-checkbox">Lasagne</li>
+                            <li><input type="checkbox" name="mains" id="Greek-salad" class="input-checkbox">Greek salad</li>
+                        </ul>
+                    </div>
+                    <div class="column" id="column2">
+                        <ul style="list-style-type: none;" class="desserts">
+                            <p class="text-bold">DESSERTS</p>
+                            <img src="desserts.png" alt="desserts image" height="100px">
+                            <li><input type="checkbox" name="desserts" id="Banana-split" class="input-checkbox">Banana split</li>
+                            <li><input type="checkbox" name="desserts" id="Cherry-Pie" class="input-checkbox">Cherry Pie</li>
+                            <li><input type="checkbox" name="desserts" id="Choco-budoir" class="input-checkbox">Choco budoir</li>
+                            <li><input type="checkbox" name="desserts" id="Cookie-delight" class="input-checkbox">Cookie delight</li>
+                            <li><input type="checkbox" name="desserts" id="Apple-pie" class="input-checkbox">Apple pie</li>
+                            <li><input type="checkbox" name="desserts" id="Fruit-smoothie" class="input-checkbox">Fruit smoothie</li>
+                            <li><input type="checkbox" name="desserts" id="Chocolate-muffin" class="input-checkbox">Chocolate muffin</li>
+                        </ul>
+                    </div>
+                    <div class="column" id="column3">
+                        <ul style="list-style-type: none;" class="drinks">
+                            <p class="text-bold">DRINKS</p>
+                            <img src="drinks.jpg" alt="drinks image" height="100px">
+                            <li><input type="checkbox" name="drinks" id="Soft-drinks" class="input-checkbox">Soft drinks</li>
+                            <li><input type="checkbox" name="drinks" id="Beer" class="input-checkbox">Beer</li>
+                            <li><input type="checkbox" name="drinks" id="Glass-of-wine" class="input-checkbox">Glass of wine</li>
+                            <li><input type="checkbox" name="drinks" id="Bottled-water" class="input-checkbox">Bottled water</li>
+                            <li><input type="checkbox" name="drinks" id="Fresh-juice" class="input-checkbox">Fresh juice</li>
+                            <li><input type="checkbox" name="drinks" id="Tea" class="input-checkbox">Tea</li>
+                            <li><input type="checkbox" name="drinks" id="Coffee" class="input-checkbox">Coffee</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group" id="menu">
+                    <button class="button-menu"><a href="./Menu/index.html" target="_blank">Click here to see the whole menu!</a></button>
+                    <label for="textarea"></label>
+                    <textarea class="somethingelse" name="somehting-else" cols="20" rows="1" placeholder="Something else..."></textarea><br>
+                </div>
+                
+
+                <div class="form-group" id="special-requests-container">
+                    <label for="textarea" class="label-textarea-special-requests">Special requests</label><br>
+                    <textarea class="special-requests" name="comments" id="textarea" cols="30" rows="10" placeholder="Enter your comments here..."></textarea><br>
+                </div>
+
+                <div class="form-group"><button type="submit" id="submit">Submit</button></div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

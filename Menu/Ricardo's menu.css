@@ -1,0 +1,349 @@
+
+body{
+    font-family: "Karben 105 Mono W00 Book";
+    background-image: url(background\ vegetables.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #114909;
+    margin: 0;
+    padding: 30px;
+}
+
+.menu{
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 25px;
+}
+
+
+/* images */
+img{
+    width: 305px;
+    height: 150px;
+    border:  5px solid hsl(112, 78%, 16%);
+    margin: 0;
+    margin-bottom: -4px;
+    padding: 0px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all sections */
+#title2{
+    margin: 0;
+    margin-bottom: -15px;
+    padding: 30px;
+    font-size: 35px;
+    font-family: "Karben 105 Mono W00 Book"
+}
+.item, .item2{
+    margin-left: 22px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* column 1*/
+/* making a column */
+#section1, #section2{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.starters, .mains{
+    width: 75%;
+}
+
+.price{
+    width: 25%;
+}
+
+/* changing the style of text */
+h3, .price{
+    font-size: 21px;
+    font-family: "Karben 105 Mono W00 Bold";
+    display: inline-block;
+}
+h3{
+    text-align: left;
+
+}
+.item p{
+    text-align: left;
+}
+.item .price{
+    text-align: right;
+}
+
+.description{
+    font-size: 16px;
+    width: 80%;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+/* Section 1 */
+#section1{
+    width: 350px;
+    float: left;
+}
+
+
+
+.title_box{
+    border: 5px solid hsl(112, 78%, 16%);
+    width: 305px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#menu{
+    font-size: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-family: lupio-black;
+
+}
+
+#ricardo{
+    font-size: 40px;
+    padding: 5px;
+    margin-top:7px;
+    margin-bottom: -11px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: bebasneue-regular;
+
+}
+
+
+
+
+
+
+/* Section 2 */
+#section2{
+    width: 350px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* columns 2 */
+/* making a column */
+#section3, #section4{
+    display: inline-block;
+    height: auto;
+    margin-bottom: 15px;
+}
+.desserts, .drinks, .price2{
+    display: inline-block;
+}
+.desserts, .drinks{
+    text-align: left;
+    font-size: 18px;
+    width: 90%;
+}
+.price2{
+    text-align: right;
+    width: 10%;
+}
+.item2{
+    margin-top: -25px;
+}
+
+
+/* changing the style of the font */
+.price2{
+    font-size: 18px;
+    font-family: "Karben 105 Mono W00 Bold";
+}
+
+
+
+
+
+
+
+
+
+/* Section 3 */
+#section3{
+    width: 350px;
+    float: left;
+}
+
+
+
+
+
+
+
+/* Section 4 */
+#section4{
+    width: 350px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+hr, footer{
+    display: block;
+}
+hr{
+    background-color: hsl(112, 78%, 16%);
+    border-color: hsl(112, 78%, 16%);
+}
+
+
+/* email link */
+.email{
+    margin-top: -5px;
+}
+
+a:link{
+    color: #114909;
+}
+
+a:hover{
+    color: #27a314;
+    text-decoration: none;
+}
+
+a:after{
+   color: #27a314;
+   text-decoration: none;
+}
+
+
+/* icons */
+i{
+    color: #114909;
+}
+i:hover{
+    color: #27a314;
+}
+
+
+
+
+
+
+
+
+
+/* fonts */
+/* for paragraphs*/
+@import url(https://db.onlinewebfonts.com/c/87324a76ca55c4bbb5b9bc4b2b56ac2e?family=Karben+105+Mono+W00+Book);
+@font-face {
+    font-family: "Karben 105 Mono W00 Book";
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot");
+    src: url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/87324a76ca55c4bbb5b9bc4b2b56ac2e.svg#Karben 105 Mono W00 Book")format("svg");
+}
+
+/* for h2. h3 and price */
+@import url(https://db.onlinewebfonts.com/c/c0aee35a205e67aeea08c14ac4bc5176?family=Karben+105+Mono+W00+Bold);
+@font-face {
+    font-family: "Karben 105 Mono W00 Bold";
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot");
+    src: url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c0aee35a205e67aeea08c14ac4bc5176.svg#Karben 105 Mono W00 Bold")format("svg");
+}
+
+/* MENU */
+@font-face {
+    font-family: lupio-black;
+    src: url(Fontspring-DEMO-lupio-black.ttf);
+}
+
+/* RICARDO'S */
+@font-face {
+    font-family: bebasneue-regular;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+/* for phone version */
+@media (max-width: 850px) {
+    .menu{
+        min-height: 2150px;
+        max-width: 350px;
+        padding-left: 19px;
+    }
+
+}
