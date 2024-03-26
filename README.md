@@ -1,2 +1,2 @@
-# Ricordo-s-restorant
+# Ricordo's restorant
 Italian restorant webpage -> menu, serving form
